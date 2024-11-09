@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        background-color: #161616;
+        color: white;
+        font-size: 1.6rem;
+    }
+    
+    header {
+        margin-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background-color: transparent;
+        filter: drop-shadow(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .logo {
+        font-size: 3rem;
+        color: #8a2be2; /* สีม่วงอ่อน */
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    
+    nav a {
+        font-size: 1.8rem;
+        color: white;
+        margin-left: 4rem;
+        font-weight: 500;
+        transition: 0.3s ease;
+        border-bottom: 3px solid transparent;
+    }
+    
+    nav a:hover,
+    nav a.active {
+        color: #8a2be2; /* เปลี่ยนเป็นสีม่วงอ่อน */
+        border-bottom: 3px solid #8a2be2; /* เปลี่ยนเป็นสีม่วงอ่อน */
+    }
+    
+    .contact {
+        min-height: 100vh;
+        padding: 5rem 9% 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact-info {
+        background-color: #292929;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    
+    .contact-info h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: #8a2be2; /* เปลี่ยนเป็นสีม่วงอ่อน */
+    }
+    
+    .contact-info p {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #161616;
+        padding: 1rem;
+        color: #8a2be2; /* เปลี่ยนเป็นสีม่วงอ่อน */
+    }
+</style>
+    <header>
+        <a href="#" class="logo">pxr1n._cs17</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">งานเล็กๆ</a>
+            <a href="#">Skills</a>
+            <a href="Contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-info">
+            <h1>CONTACT</h1>
+            
+            <p><strong>Facebook:</strong> Naxrin tb</p>
+           
+            <p><strong>instagram:</strong>pxr1n._cs17</p>
+            <p><strong>เบอร์ติดต่อ:</strong> ไม่ให้ไม่ต้องหลอกถาม</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; หล่อสุกใน Craxsz</p>
+    </footer>
+</body>
+</html>
